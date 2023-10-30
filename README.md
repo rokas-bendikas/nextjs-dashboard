@@ -16,3 +16,6 @@ To run this project, follow these steps:
 ## Hosted version
 
 You can access the working prototype on: `https://nextjs-dashboard-nine-delta.vercel.app/`.
+
+Email: user@nextmail.com \
+Password: 123456
