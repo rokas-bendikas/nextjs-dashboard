@@ -1,5 +1,18 @@
-## Next.js App Router Course - Final
+# Invoice Dashboard with User Authentication
 
-This is the final template for the Next.js App Router Course. It contains the final code for the dashboard application.
+This is a Next.js 14 project that provides an invoice dashboard page with user authentication. The platform displays a list of invoices and allows the user to add, edit, delete, filter and sort them. It requires the user to be authenticated in order to access the page.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Usage
+
+To run this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Setup the .env file based on .env.example
+2. Install the dependencies by running `npm install`.
+3. Start the development server by running `npm run dev`.
+4. Open your browser and navigate to `http://localhost:3000`.
+
+
+## Hosted version
+
+You can access the working prototype on: `https://nextjs-dashboard-nine-delta.vercel.app/`.
