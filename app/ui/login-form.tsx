@@ -1,5 +1,6 @@
 "use client";
 
+import { authenticate } from "@/app/lib/actions";
 import { lusitana } from "@/app/ui/fonts";
 import {
   AtSymbolIcon,
@@ -8,7 +9,6 @@ import {
 } from "@heroicons/react/24/outline";
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
 import { Button } from "./button";
-import { authenticate } from "@/app/lib/actions";
 import { useFormState, useFormStatus } from "react-dom";
 
 export default function LoginForm() {
@@ -64,7 +64,6 @@ export default function LoginForm() {
         </div>
         <LoginButton />
         <div className="flex h-8 items-end space-x-1">
-          {/* Add form errors here */}
           {code === "CredentialSignin" && (
             <>
               <ExclamationCircleIcon className="h-5 w-5 text-red-500" />
